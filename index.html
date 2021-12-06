@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <!-- ------------------------------------------------------------
                                                                 |
          lawyersco.de HOW-TO: Build Your Firm's Website         |
@@ -94,7 +95,8 @@ during step 1.                                                  |
     <meta
       property="og:description"
       content="Follow along with how-tos for everything you need to jump start your law firm's online presence at lawyersco.de" />
-    <script type="text/javascript"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Cormorant|Source+Sans+Pro&display=swap"
       rel="stylesheet" />
@@ -235,19 +237,37 @@ for a FREE phone consultation about your case.
 <section class="dorik-section dorik-section-b0tli3sd " id="volunteer">
   <div class="container">
     <div class="dorik-row-gxish0iy  flex">
+      
+      <!-- Option for no form 
+      <div class="col-lg-1/1 ">
+        <div class="column-inner dorik-column-7altt2d1  1/1">
+          <div class="dorik-wrapper dorik-heading-x0fp70d2-wrapper ">
+            <h2 class="dorik-heading dorik-heading-x0fp70d2 ">
+              <span>
+                <p>Contact us today for a FREE consultation
+                </p>
+              </span>
+            </h2>
+          </div>
+      </div>
+    </div>
+      
+    -->
+      
+
       <div class="col-lg-1/3 ">
         <div class="column-inner dorik-column-7altt2d1  1/3">
           <div class="dorik-wrapper dorik-heading-x0fp70d2-wrapper ">
             <h2 class="dorik-heading dorik-heading-x0fp70d2 ">
               <span>
                 <p>
-
+                  
 <!-- LAWYERSCODE: Optional - remove "FREE" ------------------------>
 
 Contact us today for a FREE consultation
 
 <!-- Continue to LINE 144 ----------------------------------------->
-
+                  
                 </p>
               </span>
             </h2>
@@ -257,56 +277,70 @@ Contact us today for a FREE consultation
 
 <!-- LAWYERSCODE: Optional - modify disclaimer -------------------->
 
-Please do not include any confidential or sensitive information in the above contact form or voicemail. The contact form sends information by non-encrypted email, which is not secure. Submitting a contact form, making a phone call, or leaving a voicemail does not create an attorney-client relationship.
+Please do not include any confidential or sensitive information when submitting the contact form, sending an email, or leaving a voicemail. Sending the contact form or an email, making a phone call, or leaving a voicemail does not create an attorney-client relationship.
 
 <!-- Continue to LINE 123 ----------------------------------------->
-
+              
           </p>
         </div>
       </div>
     </div>
     <div class="col-lg-2/3 ">
       <div class="column-inner dorik-column-5dd94m7k  2/3">
-          <form action="mailto:zbrittanyz@gmail.com" method="post" >
+          <form action="mailto:" method="POST" id="contactus">
           <div class="dorik-customForm-firmcontact ">
             <div class="customform-field-wrapper customform-field-text customform-column-6 ">
 
               <label class="form-field-label" for="name">
               </label>
-              <input type="text" placeholder="Your Name" name="visitor_name" required="" id="name" class="form-field-input "/>
+              <input type="text" placeholder="Your Name" name="visitor_name" required="" class="form-field-input "/>
             </div>
 
             <div class="customform-field-wrapper customform-field-email customform-column-3 ">
               <label class="form-field-label" for="email">
               </label>
-              <input type="email" placeholder="Email" name="visitor_email" required="" id="email" class="form-field-input "/>
+              <input type="email" placeholder="Email" name="visitor_email" required="" class="form-field-input "/>
             </div>
 
             <div class="customform-field-wrapper customform-field-tel customform-column-3 ">
               <label class="form-field-label" for="phone">
               </label>
-              <input type="tel" placeholder="Phone Number" required="" id="phone" name="visitor_phone" class="form-field-input "/>
+              <input type="tel" placeholder="Phone Number" required="" name="visitor_phone" class="form-field-input "/>
             </div>
 
             <div class="customform-field-wrapper customform-field-textarea customform-column-6 ">
               <label class="form-field-label" for="desc"> 
               </label>
-              <textarea placeholder="Brief description of your legal issue" type="textarea" required="" id="desc" name="visitor_message" class="form-field-input textarea "></textarea>
+              <textarea placeholder="Brief description of your legal issue" type="textarea" required="" name="visitor_message" class="form-field-input textarea "></textarea>
             </div>
 
             <div class="customform-field-wrapper">
-              <input type="submit" class="customform-button" value="Submit" />
+              <input type="submit" class="customform-button" value="Submit"<"/>
             </div>
-
-            <input type="hidden" name="_t" value="dGVzdEB0ZXN0LmNvbQ=="/>
-            <input type="hidden" name="_sub" value="Justifide Law: Legal Inquiry"/>
           </div>
-
         </form>
       </div>
     </div>
   </div>
 </div>
+     <!-- DEAD - work on contact form workaround!   
+      
+  <div class="container">
+    <div class="dorik-row-ge2ssdwd  flex">
+      <div class="col-lg-1/1 ">
+        <div class="column-inner dorik-column-jehchv1o  1/1">
+          <div class="dorik-text dorik-text-39492647 ">
+            <p>Please do not include any confidential or sensitive
+                information when submitting an email or voicemail. Sending an                 email, making a phone call, or leaving a voicemail does not 
+                create an attorney-clientrelationship.        
+          </p>
+        </div>
+      </div>
+    </div>
+   </div>
+  </div>
+ -->
+  
 </section>
 
 <section class="dorik-section dorik-section-3fr04spa ">
@@ -333,6 +367,7 @@ Please do not include any confidential or sensitive information in the above con
             <p>
 
 <!-- LAWYERSCODE: Edit to include or exclude coverage areas ------->
+<!-- DO NOT TOUCH THE YELLOW <br> BRACKETS ------------------------>
                                                                 
 We proudly serve the following localities:                                   <br>
 Gondor County including Minas Tirith, Dol Amroth, and Calembel               <br> 
@@ -401,7 +436,7 @@ Hitchhiker County including Magrathea and Maximegalon
 
 <!-- LAWYERSCODE: Enter your email  ------------------------------->
                                                                 
-email@email.com                                      
+contact@lawyersco.de                                   
                                                                 
 <!-- Continue to LINE 144 ----------------------------------------->
 
@@ -413,5 +448,60 @@ email@email.com
 </div>
 </section>
 
+<script>window.PROJECT_ID = "61abd843bc26600011f635aa";</script>
+    <script src="https://cdn.dorik.com/common/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript">;(
+        function() {
+                var elem = $("#isman2iq");
+                function triggerSpinner(el, status) {
+        el.find(".spinner").css("display", status ? "inline-block" : "none");
+      };(
+        function injectUniqId(elem) {
+          const uniqId = Math.random().toString(36).substring(2, 8);
+          var input = document.createElement("input");
+            input.type = "hidden";
+            input.value = uniqId;
+            input.name = "_uid";
+           elem.append(input);
+      })(elem);
+                $(elem).on("submit", function (e) {
+                    e.preventDefault();
+                    var that = this;
+                    triggerSpinner(elem, true);
+                    $(that).find(".success-message").remove();
+                    $(that).find(".error-message").remove();
+                    var data = $(that).serialize();
+                    $.ajax({
+                    url: "/v2/sites/action/contact",
+                    method: "POST",
+                    data: data,
+                    success: function(data) {
+                        var msgClass = data.success === true ? 
+                            "success-message": "error-message";
+                        var message = data.success === true ? 
+                            "Thank you for your inquiry. We will reply shortly." 
+                        : data.message;
+                        var $div = $("<div>", {
+                            class: msgClass,
+                            html: message
+                        });
+                        $(that).append($div);
+                        triggerSpinner(elem, false);
+                        
+                    },
+                    error: function(error) {
+                        var $div = $("<div>", {
+                            class: "error-message",
+                            html: error.message || 
+                          "Something went wrong! Check the fields"
+                        });
+                        $(that).append($div);
+                        triggerSpinner(elem, false);
+                    }
+                });
+                });
+            })();
+    </script>
+                
         </body>
     </html>
