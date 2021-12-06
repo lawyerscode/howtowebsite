@@ -238,7 +238,7 @@ for a FREE phone consultation about your case.
   <div class="container">
     <div class="row-gxish0iy  flex">
       
-      <!-- Option for no form 
+<!-- DEAD - content form alternative
       <div class="col-lg-1/1 ">
         <div class="column-inner column-7altt2d1  1/1">
           <div class="wrapper heading-x0fp70d2-wrapper ">
@@ -251,9 +251,7 @@ for a FREE phone consultation about your case.
           </div>
       </div>
     </div>
-      
-    -->
-      
+-->
 
       <div class="col-lg-1/3 ">
         <div class="column-inner column-7altt2d1  1/3">
@@ -287,59 +285,60 @@ Please do not include any confidential or sensitive information when submitting 
     </div>
     <div class="col-lg-2/3 ">
       <div class="column-inner column-5dd94m7k  2/3">
-          <form action="mailto:contact@lawyersco.de" method="POST" id="contactus">
+        <form id="contactform"
           <div class="customForm-firmcontact ">
             <div class="customform-field-wrapper customform-field-text customform-column-6 ">
-
               <label class="form-field-label" for="name">
               </label>
               <input type="text" placeholder="Your Name" name="visitor_name" required="" class="form-field-input "/>
             </div>
-
             <div class="customform-field-wrapper customform-field-email customform-column-3 ">
               <label class="form-field-label" for="email">
               </label>
               <input type="email" placeholder="Email" name="visitor_email" required="" class="form-field-input "/>
             </div>
-
             <div class="customform-field-wrapper customform-field-tel customform-column-3 ">
               <label class="form-field-label" for="phone">
               </label>
               <input type="tel" placeholder="Phone Number" required="" name="visitor_phone" class="form-field-input "/>
             </div>
-
             <div class="customform-field-wrapper customform-field-textarea customform-column-6 ">
               <label class="form-field-label" for="desc"> 
               </label>
               <textarea placeholder="Brief description of your legal issue" type="textarea" required="" name="visitor_message" class="form-field-input textarea "></textarea>
             </div>
-
-            <div class="customform-field-wrapper">
-              <input type="submit" class="customform-button" value="Submit"<"/>
-            </div>
+              <div class="customform-field-wrapper">
+                <button type="submit" class="customform-button " id="">Submit
+                  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="spinner" class="svg-inline--fa fa-spinner fa-w-16 fa-spin fa-fw customform-icon spinner" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="display:none;margin-left:5px">
+                    <path fill="currentColor" d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+                    </path>
+                    </svg>
+                    </button>
+             </div>
+        <input type="hidden" name="_t" value="Y29udGFjdEBsYXd5ZXJzY28uZGU="/>
+        <input type="hidden" name="_sub" value="Justifide Law: Legal Inquiry"/>
+        </div>
           </div>
         </form>
       </div>
     </div>
   </div>
 </div>
-     <!-- DEAD - work on contact form workaround!   
-      
+
+<!-- DEAD - content form alternative
   <div class="container">
     <div class="row-ge2ssdwd  flex">
       <div class="col-lg-1/1 ">
         <div class="column-inner column-jehchv1o  1/1">
           <div class="text text-39492647 ">
-            <p>Please do not include any confidential or sensitive
-                information when submitting an email or voicemail. Sending an                 email, making a phone call, or leaving a voicemail does not 
-                create an attorney-clientrelationship.        
+            <p>Please do not include any confidential or sensitive information when submitting an email or voicemail. Sending an email, making a phone call, or leaving a voicemail does not create an attorney-clientrelationship.        
           </p>
         </div>
       </div>
     </div>
    </div>
   </div>
- -->
+-->
   
 </section>
 
@@ -452,7 +451,7 @@ contact@lawyersco.de
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1"></script>
     <script type="text/javascript">;(
         function() {
-                var elem = $("#isman2iq");
+                var elem = $("#contactform");
                 function triggerSpinner(el, status) {
         el.find(".spinner").css("display", status ? "inline-block" : "none");
       };(
