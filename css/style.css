@@ -1760,7 +1760,20 @@ h4 {
             }
       
             
-            
+.section-4kodgc42:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  opacity: 0.8;
+  background-image: url('https://lawyerscode.github.io/justifide/assets/img/scales-nobg.png');
+  background-repeat: no-repeat;
+  background-position: 40% 0;
+  background-size: cover;
+}            
             
         
   
@@ -2148,6 +2161,20 @@ h4 {
         }
 
 .image-qokmzkgh-wrapper {
+  text-align: center; 
+  
+}
+
+
+
+/*Image*/
+.image-lclogo {
+  max-height: 140px; 
+  padding-top: 75px;
+  padding-bottom: 20px;
+        }
+
+.image-lclogo-wrapper {
   text-align: center; 
   
 }
