@@ -1,3 +1,4 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
@@ -1245,38 +1246,38 @@ code {
     top: 0;
     left: 0;
 }
-.dorik-frame-corner {
+.frame-corner {
     max-width: 100%;
 }
-.dorik-section {
+.section {
     margin: 0 auto;
     position: relative;
 }
 .flex {
     justify-content: center;
 }
-.dorik-icon,
+.icon,
 .el-ib {
     display: inline-block;
 }
-.dorik-icon > .icon {
+.icon > .icon {
     vertical-align: middle;
 }
-.dorik-heading p {
+.heading p {
     margin: 0;
 }
-.dorik-text {
+.text {
     margin-top: 1em;
     margin-bottom: 1em;
 }
-.dorik-text p {
+.text p {
     margin: 0;
 }
-.dorik-btn {
+.btn {
     display: inline-flex;
     align-items: center;
 }
-.dorik-wrapper {
+.wrapper {
     display: block;
     position: relative;
 }
@@ -1298,33 +1299,33 @@ code {
     padding: 10px 15px;
     background-color: #fff;
 }
-.dorik-iframe {
+.iframe {
     height: 0;
     overflow: hidden;
     position: relative;
     padding-bottom: 56.25%;
 }
-.dorik-iframe iframe {
+.iframe iframe {
     top: 0;
     left: 0;
     width: 100%;
     position: absolute;
     height: calc(100% + 1px);
 }
-.dorik-list {
+.list {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
-.dorik-list li {
+.list li {
     padding: 0;
 }
-.dorik-list {
+.list {
     display: flex;
     flex-wrap: wrap;
 }
-.dorik-list--item,
-.dorik-list--link {
+.list--item,
+.list--link {
     display: flex;
 }
 .sticky {
@@ -1343,83 +1344,83 @@ code {
 .collapse:not(.show) {
     display: none;
 }
-.dorik-navbar {
+.navbar {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
-.dorik-navbar--wrapper {
+.navbar--wrapper {
     padding-left: 15px;
     padding-right: 15px;
     transition: top 0.35s ease, background-color 0.35s ease;
 }
-.dorik-navbar--wrapper.sticky {
+.navbar--wrapper.sticky {
     padding-left: 0;
     padding-right: 0;
 }
-.dorik-navbar--wrapper:not(.sticky) {
+.navbar--wrapper:not(.sticky) {
     margin-left: -15px;
     margin-right: -15px;
 }
-.dorik-navbar--brand {
+.navbar--brand {
     margin-right: 30px;
 }
-.dorik-navbar--toggle {
+.navbar--toggle {
     padding: 8px 12px;
     border-radius: 5px;
     border: 1px solid gray;
     background-color: transparent;
 }
-.dorik-navbar--collapse {
+.navbar--collapse {
     flex-grow: 1;
     flex-basis: 100%;
 }
 @media screen and (max-width: 1024px) {
-    .dorik-navbar--navs {
+    .navbar--navs {
         text-align: center;
         padding-top: 30px;
     }
 }
 @media screen and (min-width: 1025px) {
-    .dorik-navbar--toggle {
+    .navbar--toggle {
         display: none;
     }
-    .dorik-navbar--collapse {
+    .navbar--collapse {
         flex-basis: auto;
         align-items: center;
         display: flex !important;
         justify-content: flex-end;
     }
-    .dorik-navbar--navs {
+    .navbar--navs {
         flex: 1;
         display: flex;
         align-items: center;
         justify-content: flex-end;
     }
 }
-.dorik-nav--btns,
-.dorik-nav--links {
+.nav--btns,
+.nav--links {
     display: flex;
     flex-direction: column;
 }
 @media screen and (min-width: 1025px) {
-    .dorik-nav--btns,
-    .dorik-nav--links {
+    .nav--btns,
+    .nav--links {
         flex-direction: row;
     }
 }
-.dorik-nav--btn,
-.dorik-nav--link {
+.nav--btn,
+.nav--link {
     display: inline-flex;
     text-decoration: none;
     margin-bottom: 15px;
 }
-.dorik-nav--links {
+.nav--links {
     flex: 1;
 }
 @media screen and (min-width: 1025px) {
-    .dorik-nav--links:not(:last-child) {
+    .nav--links:not(:last-child) {
         margin-right: 30px;
     }
 }
@@ -1588,7 +1589,7 @@ h4 {
 /*undefined*/
 
 /*Section*/
-.dorik-section-42xkwrrv {
+.section-42xkwrrv {
               padding-top: 50px;
   padding-bottom: 50px;
 background-color: #DDAAAA;
@@ -1605,7 +1606,7 @@ background-image: ;
   background-attachment: fixed; 
 
         }
-    .dorik-section-42xkwrrv:before {
+    .section-42xkwrrv:before {
                 background-image: linear-gradient(102deg, #FC466B 0%, #3F5EFB 86%);
 
             }
@@ -1616,28 +1617,28 @@ background-image: ;
         
   
 /*Row*/
-.dorik-row-i4a53waf {
+.row-i4a53waf {
               margin-bottom: 75px;
 
 
         }
     
 /*Column*/
-.dorik-column-jypj9ihk {
+.column-jypj9ihk {
               justify-content: center; 
 
         }
-    .dorik-column-jypj9ihk {
+    .column-jypj9ihk {
             display: flex; 
             flex-direction: column; 
         }
 /*Image*/
-.dorik-image-m1c22e77 {
+.image-m1c22e77 {
               object-fit: cover; 
   filter: grayscale(0%);
 
         }
-    .dorik-image-m1c22e77-wrapper {
+    .image-m1c22e77-wrapper {
   text-align: left; 
 
 }
@@ -1645,7 +1646,7 @@ background-image: ;
 /*Column*/
 
 /*Text*/
-.dorik-text-clxxbaey {
+.text-clxxbaey {
   text-align: right; 
   text-transform: none; 
   text-decoration: none;
@@ -1662,7 +1663,7 @@ background-image: ;
 /*Column*/
 
 /*Horizontal Line*/
-.dorik-line-vflk94k6 {
+.line-vflk94k6 {
               border-width: 0;
 background-color: #000000;
   height: 2px; 
@@ -1670,13 +1671,13 @@ background-color: #000000;
 
 
         }
-    .dorik-line-vflk94k6-wrapper {
+    .line-vflk94k6-wrapper {
   text-align: center; 
 
 }
 
 /*Text*/
-.dorik-text-2r2qxis1 {
+.text-2r2qxis1 {
   text-align: center; 
   font-size: 60px; 
   text-transform: uppercase; 
@@ -1686,7 +1687,7 @@ background-color: #000000;
         }
     
 /*Horizontal Line*/
-.dorik-line-xprdcfl8 {
+.line-xprdcfl8 {
               border-width: 0;
 background-color: #000000;
   height: 2px; 
@@ -1694,13 +1695,13 @@ background-color: #000000;
   margin-bottom: 75px;
 
         }
-    .dorik-line-xprdcfl8-wrapper {
+    .line-xprdcfl8-wrapper {
   text-align: center; 
 
 }
 
 /*Section*/
-.dorik-section-4kodgc42 {
+.section-4kodgc42 {
             background-color: #F8F7F2;
   min-height: auto; 
   height: auto; 
@@ -1708,7 +1709,7 @@ background-color: #000000;
 
         }
     @media screen and (max-width: 1023px) {
-                .dorik-section-4kodgc42 {
+                .section-4kodgc42 {
               height: auto; 
   padding-bottom: 40px;
 
@@ -1716,7 +1717,7 @@ background-color: #000000;
         }
     
             }@media screen and (max-width: 767px) {
-                .dorik-section-4kodgc42 {
+                .section-4kodgc42 {
               padding-bottom: 50px;
 
         }
@@ -1729,52 +1730,52 @@ background-color: #000000;
         
   
 /*Row*/
-.dorik-row-9v30h4c2 {
+.row-9v30h4c2 {
               margin-top: 0px;
   padding-top: 60px;
 
         }
     @media screen and (max-width: 1023px) {
-                .dorik-row-9v30h4c2 {
+                .row-9v30h4c2 {
             
 
 
         }
     
             }@media screen and (max-width: 1023px) {
-                            .dorik-row-9v30h4c2 {
+                            .row-9v30h4c2 {
                                 flex-direction: column-reverse;
                             }
                         }
 @media screen and (max-width: 767px) {
-                            .dorik-row-9v30h4c2 {
+                            .row-9v30h4c2 {
                                 flex-direction: column-reverse;
                             }
                         }
 
 /*Column*/
-.dorik-column-383wdddt {
+.column-383wdddt {
               justify-content: center; 
   text-align: left; 
 
         }
     @media screen and (max-width: 1023px) {
                 
-            }.dorik-column-383wdddt {
+            }.column-383wdddt {
             display: flex; 
             flex-direction: column; 
         }
 /*Title*/
-.dorik-heading-mxlruk7p {
+.heading-mxlruk7p {
             color: var(--color-16);
 
         }
     
-      .dorik-heading-mxlruk7p p{
+      .heading-mxlruk7p p{
         display:inline;
       }
       
-      .dorik-heading-mxlruk7p .dorik-heading__dynamic span {
+      .heading-mxlruk7p .heading__dynamic span {
         display:inline-block;
       }
       
@@ -1785,23 +1786,23 @@ background-color: #000000;
         
   
 /*Text*/
-.dorik-text-1t79kpuv {
+.text-1t79kpuv {
             color: var(--color-18);
 
         }
     
 /*Title*/
-.dorik-heading-g3303y6j {
+.heading-g3303y6j {
   text-align: center; 
   color: #000000;
   font-size: 21px;
         }
     
-      .dorik-heading-g3303y6j p{
+      .heading-g3303y6j p{
         display:inline;
       }
       
-      .dorik-heading-g3303y6j .dorik-heading__dynamic span {
+      .heading-g3303y6j .heading__dynamic span {
         display:inline-block;
       }
       
@@ -1812,17 +1813,17 @@ background-color: #000000;
         
   
 /*Title*/
-.dorik-heading-g7xucso9 {
+.heading-g7xucso9 {
   text-align: center; 
   margin-top: -17px;
     font-family: 'Source+Sans+Pro',sans-serif;
         }
     
-      .dorik-heading-g7xucso9 p{
+      .heading-g7xucso9 p{
         display:inline;
       }
       
-      .dorik-heading-g7xucso9 .dorik-heading__dynamic span {
+      .heading-g7xucso9 .heading__dynamic span {
         display:inline-block;
       }
       
@@ -1833,38 +1834,38 @@ background-color: #000000;
         
   
 /*Column*/
-.dorik-column-7kzlhy9q {
+.column-7kzlhy9q {
               justify-content: center; 
   text-align: center; 
 
         }
     @media screen and (max-width: 1023px) {
-                .dorik-column-7kzlhy9q {
+                .column-7kzlhy9q {
               margin-bottom: 0px;
   text-align: center; 
 
         }
     
             }@media screen and (max-width: 767px) {
-                .dorik-column-7kzlhy9q {
+                .column-7kzlhy9q {
               margin-bottom: 0px;
   margin-top: 32px;
   padding-bottom: 0px;
 
         }
     
-            }.dorik-column-7kzlhy9q {
+            }.column-7kzlhy9q {
             display: flex; 
             flex-direction: column; 
         }
 /*Image*/
-.dorik-image-lu0chcom {
+.image-lu0chcom {
               object-fit: cover; 
 
         }
     
 /*Section*/
-.dorik-section-b0tli3sd {
+.section-b0tli3sd {
             background-color: var(--color-16);
 
   padding-top: 80px;
@@ -1872,13 +1873,13 @@ background-color: #000000;
 
         }
     @media screen and (max-width: 1023px) {
-                .dorik-section-b0tli3sd {
+                .section-b0tli3sd {
               margin-top: 0px;
 
         }
     
             }@media screen and (max-width: 767px) {
-                .dorik-section-b0tli3sd {
+                .section-b0tli3sd {
             
 
         }
@@ -1895,17 +1896,17 @@ background-color: #000000;
 /*Column*/
 
 /*Title*/
-.dorik-heading-x0fp70d2 {
+.heading-x0fp70d2 {
             color: #000000;
   text-align: center; 
 
         }
     
-      .dorik-heading-x0fp70d2 p{
+      .heading-x0fp70d2 p{
         display:inline;
       }
       
-      .dorik-heading-x0fp70d2 .dorik-heading__dynamic span {
+      .heading-x0fp70d2 .heading__dynamic span {
         display:inline-block;
       }
       
@@ -1916,7 +1917,7 @@ background-color: #000000;
         
   
 /*Text*/
-.dorik-text-39492647 {
+.text-39492647 {
               font-size: 14px; 
   text-align: center; 
 color: #000000;
@@ -1927,71 +1928,71 @@ color: #000000;
 /*Column*/
 
 /*Custom Form*/
-.dorik-customForm-firmcontact {
+.customForm-firmcontact {
               grid-column-gap: 25px; 
   grid-row-gap: 15px; 
 
         }
     
   
-  .dorik-customForm-firmcontact {
+  .customForm-firmcontact {
       width:100%;
       display:grid;
       grid-template-columns: repeat(6, minmax(0, 1fr));
     }
 
-    .dorik-customForm-firmcontact .customform-field-wrapper {
+    .customForm-firmcontact .customform-field-wrapper {
       grid-column: span 6 / span 6;
     }
 
     
-            .dorik-customForm-firmcontact .customform-field-wrapper.customform-column-6 {
+            .customForm-firmcontact .customform-field-wrapper.customform-column-6 {
                 grid-column: span 6 / span 6;
             }
         
 
-            .dorik-customForm-firmcontact .customform-field-wrapper.customform-column-3 {
+            .customForm-firmcontact .customform-field-wrapper.customform-column-3 {
                 grid-column: span 3 / span 3;
             }
         
 
-  .dorik-customForm-firmcontact .customform-field-wrapper {
+  .customForm-firmcontact .customform-field-wrapper {
     display: flex;
     flex-direction: column;
   }
 
-  .dorik-customForm-firmcontact .form-field-input::placeholder {
+  .customForm-firmcontact .form-field-input::placeholder {
     color: var(--color-3);
     opacity:1;
   }
 
-  .dorik-customForm-firmcontact .form-field-input.textarea {
+  .customForm-firmcontact .form-field-input.textarea {
     height:100px
   }
 
-  .dorik-customForm-firmcontact .radio-input,
-  .dorik-customForm-firmcontact .radio-label,
-  .dorik-customForm-firmcontact .checkbox-input,
-  .dorik-customForm-firmcontact .checkbox-label,
-  .dorik-customForm-firmcontact .acceptance input{
+  .customForm-firmcontact .radio-input,
+  .customForm-firmcontact .radio-label,
+  .customForm-firmcontact .checkbox-input,
+  .customForm-firmcontact .checkbox-label,
+  .customForm-firmcontact .acceptance input{
     margin-right:10px;
   }
 
-  .dorik-customForm-firmcontact .customform-field-radio > div,
-  .dorik-customForm-firmcontact .customform-field-checkbox > div {
+  .customForm-firmcontact .customform-field-radio > div,
+  .customForm-firmcontact .customform-field-checkbox > div {
     display:flex;
     flex-direction:column;
   }
 
-  .dorik-customForm-firmcontact .customform-field-radio > div.inline,
-  .dorik-customForm-firmcontact .customform-field-checkbox > div.inline {
+  .customForm-firmcontact .customform-field-radio > div.inline,
+  .customForm-firmcontact .customform-field-checkbox > div.inline {
     flex-direction:row;
   }
 
-  .dorik-customForm-firmcontact .customform-field-radio > div > div,
-  .dorik-customForm-firmcontact .customform-field-checkbox > div > div,
-  .dorik-customForm-firmcontact .acceptance,
-  .dorik-customForm-firmcontact .customform-button {
+  .customForm-firmcontact .customform-field-radio > div > div,
+  .customForm-firmcontact .customform-field-checkbox > div > div,
+  .customForm-firmcontact .acceptance,
+  .customForm-firmcontact .customform-button {
     display:flex;
     align-items:center;
   }
@@ -2003,7 +2004,7 @@ color: #000000;
         
 
   
-            .dorik-customForm-firmcontact .form-field-input {
+            .customForm-firmcontact .form-field-input {
                   border: 0px solid #000000; 
   height: 45px; 
   padding-top: 10px;
@@ -2019,7 +2020,7 @@ background-color: var(--color-6);
             
         
 
-  .dorik-customForm-firmcontact .form-field-input {
+  .customForm-firmcontact .form-field-input {
     background-color: [object Object]
   }
 
@@ -2030,7 +2031,7 @@ background-color: var(--color-6);
         
   
   
-            .dorik-customForm-firmcontact .customform-button {
+            .customForm-firmcontact .customform-button {
                   border: 0px solid ; 
 background-color: var(--color-15);
   border-radius: 5px 5px 5px 5px; 
@@ -2047,55 +2048,55 @@ color: var(--color-16);
             
         
 
-  .dorik-customForm-firmcontact .acceptance .acceptance-label > p {
+  .customForm-firmcontact .acceptance .acceptance-label > p {
     margin:0;
   }
 
-  .dorik-customForm-firmcontact .form-field-label .required-mark,
-  .dorik-customForm-firmcontact .acceptance .required-mark {
+  .customForm-firmcontact .form-field-label .required-mark,
+  .customForm-firmcontact .acceptance .required-mark {
     margin-left:5px;
     color: FF0B0B;
   }
 
-  .dorik-customForm-firmcontact .customform-button {
+  .customForm-firmcontact .customform-button {
     margin: 0 auto;
   }
 
-  .dorik-customForm-firmcontact .customform-button .icon-text-spacer{
+  .customForm-firmcontact .customform-button .icon-text-spacer{
       width:10px
   }
 
-  .dorik-customForm-firmcontact .customform-button .customform-icon{
+  .customForm-firmcontact .customform-button .customform-icon{
     color: FFFFFF;
   }
 
-  .dorik-customForm-firmcontact .customform-button:hover .customform-icon{
+  .customForm-firmcontact .customform-button:hover .customform-icon{
     color: null;
   }
 
   @media all and (max-width:767px){
-      .dorik-customForm-firmcontact .customform-field-wrapper {
+      .customForm-firmcontact .customform-field-wrapper {
         grid-column: span 6 / span 6 !important;
       }
     }
 
   
 /*Section*/
-.dorik-section-3fr04spa {
+.section-3fr04spa {
               padding-top: 50px;
   padding-bottom: 50px;
 background-color: var(--color-1);
 
         }
     @media screen and (max-width: 1023px) {
-                .dorik-section-3fr04spa {
+                .section-3fr04spa {
               padding-top: 50px;
   padding-bottom: 50px;
 
         }
     
             }@media screen and (max-width: 767px) {
-                .dorik-section-3fr04spa {
+                .section-3fr04spa {
               padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 0px;
@@ -2116,11 +2117,11 @@ background-color: var(--color-1);
 /*Column*/
 
 /*Image*/
-.dorik-image-qokmzkgh {
+.image-qokmzkgh {
               min-height: 150px; 
 
         }
-    .dorik-image-qokmzkgh-wrapper {
+    .image-qokmzkgh-wrapper {
   text-align: center; 
 
 }
@@ -2132,7 +2133,7 @@ background-color: var(--color-1);
 /*Column*/
 
 /*Text*/
-.dorik-text-mbisakos {
+.text-mbisakos {
               text-align: center; 
 color: #000000;
 
@@ -2145,16 +2146,16 @@ color: #000000;
 /*Column*/
 
 /*Title*/
-.dorik-heading-fn4knapn {
+.heading-fn4knapn {
               text-align: center; 
 
         }
     
-      .dorik-heading-fn4knapn p{
+      .heading-fn4knapn p{
         display:inline;
       }
       
-      .dorik-heading-fn4knapn .dorik-heading__dynamic span {
+      .heading-fn4knapn .heading__dynamic span {
         display:inline-block;
       }
       
@@ -2165,7 +2166,7 @@ color: #000000;
         
   
 /*Text*/
-.dorik-text-zj2wsp87 {
+.text-zj2wsp87 {
             color: #000000;
   text-align: center; 
 
@@ -2174,16 +2175,16 @@ color: #000000;
 /*Column*/
 
 /*Title*/
-.dorik-heading-1xe9qytt {
+.heading-1xe9qytt {
               text-align: center; 
 
         }
     
-      .dorik-heading-1xe9qytt p{
+      .heading-1xe9qytt p{
         display:inline;
       }
       
-      .dorik-heading-1xe9qytt .dorik-heading__dynamic span {
+      .heading-1xe9qytt .heading__dynamic span {
         display:inline-block;
       }
       
@@ -2194,7 +2195,7 @@ color: #000000;
         
   
 /*Text*/
-.dorik-text-q5hcovom {
+.text-q5hcovom {
             color: #000000;
   text-align: center; 
 
